@@ -24,8 +24,8 @@
         <div class="text">
             <h2>Never Stop</h2>
             <h3>Exploring The World</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi deleniti rerum quidem ab autem
-                voluptatem commodi! Perspiciatis, saepe tenetur?</p>
+            <p>Some of us simply can't stand to be in one place for too long — we are drawn to new experiences, cultures, and people, and we feel a constant pull to see more and go further. If you yearn for wanderlust like we do, then these places will inspire you to keep going wherever the wind blows you, because there is always something more to discover!</p>
+            <p>Live life as you would, if you are given only one life.</p>
             <a href="#">Explore</a>
         </div>
 
@@ -47,6 +47,17 @@
         </ul>
     </div>
 
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+
+    </script>
 </body>
 
 </html>
