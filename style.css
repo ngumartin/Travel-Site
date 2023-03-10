@@ -42,20 +42,21 @@
 .logo {
     text-transform: uppercase;
     cursor: pointer;
+    color: gray;
 }
 
 .toggle {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('https://api.iconify.design/bx:bx-menu.svg?color=white') no-repeat center center / contain;
+    background: url('https://api.iconify.design/bx:bx-menu.svg?color=gray') no-repeat center center / contain;
     background-size: 30px;
     background-position: center;
     cursor: pointer;
 }
 
 .toggle.active {
-    background: url('https://api.iconify.design/ant-design:close-square-outlined.svg?color=white') no-repeat center center / contain;
+    background: url('https://api.iconify.design/ant-design:close-square-outlined.svg?color=gray') no-repeat center center / contain;
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
