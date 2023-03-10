@@ -42,21 +42,21 @@
 .logo {
     text-transform: uppercase;
     cursor: pointer;
-    color: gray;
+    color: lightseagreen;
 }
 
 .toggle {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('https://api.iconify.design/bx:bx-menu.svg?color=gray') no-repeat center center / contain;
+    background: url('https://api.iconify.design/bx:bx-menu.svg?color=lightseagreen') no-repeat center center / contain;
     background-size: 30px;
     background-position: center;
     cursor: pointer;
 }
 
 .toggle.active {
-    background: url('https://api.iconify.design/ant-design:close-square-outlined.svg?color=gray') no-repeat center center / contain;
+    background: url('https://api.iconify.design/ant-design:close-square-outlined.svg?color=lightseagreen') no-repeat center center / contain;
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 
 .text a {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.5em;
     background: #fff;
     padding: 10px 30px;
     text-decoration: none;
@@ -122,7 +122,8 @@
 }
 
 .text a:hover {
-    letter-spacing: 6px;
+    letter-spacing: 5px;
+    color: lightseagreen;
 }
 
 .social {
@@ -132,7 +133,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .social li {
@@ -148,6 +148,10 @@
 
 .social li a:hover {
     transform: scale(1.5) translateY(-6px);
+    background-color: lightseagreen;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
 }
 
 .menu {
