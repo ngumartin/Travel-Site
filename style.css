@@ -43,6 +43,7 @@
     text-transform: uppercase;
     cursor: pointer;
     color: lightseagreen;
+    font-size: 36px;
 }
 
 .toggle {
@@ -50,7 +51,7 @@
     width: 60px;
     height: 60px;
     background: url('https://api.iconify.design/bx:bx-menu.svg?color=lightseagreen') no-repeat center center / contain;
-    background-size: 30px;
+    background-size: 40px;
     background-position: center;
     cursor: pointer;
 }
@@ -99,6 +100,7 @@
     font-weight: 400;
     line-height: 1em;
     text-transform: uppercase;
+    color: lightseagreen;
 }
 
 .text p {
@@ -119,6 +121,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.2s;
+    border-radius: 10px;
 }
 
 .text a:hover {
