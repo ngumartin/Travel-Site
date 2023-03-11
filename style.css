@@ -145,6 +145,7 @@
 .social li a {
     display: inline-block;
     margin-right: 30px;
+    padding-left: 3px;
     transform: scale(1.5); 
     transition: 0.3s
 }
@@ -188,11 +189,6 @@
 @media(max-width: 991px) {
     .showcase, 
     .showcase header {
-        padding: 40px;
-    }
-
-    .show, 
-    .show header {
         padding: 40px;
     }
 
