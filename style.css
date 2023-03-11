@@ -46,6 +46,16 @@
     font-size: 36px;
 }
 
+#destinationHeader {
+    height: 30%;
+    width: 100vw;
+    background-image: url('/images/website-grid-10-and-3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 4px silver;
+    overflow: auto;
+}
+
 .toggle {
     position: relative;
     width: 60px;
@@ -159,7 +169,7 @@
 }
 
 .menu {
-    background-color: rgb(252, 249, 249);
+    background-color: 	silver;
     position: absolute;
     top: 0;
     right: 0;
