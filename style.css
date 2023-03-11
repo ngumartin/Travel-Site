@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #111;
+    background: whitesmoke;
     color: #fff;
     z-index: 2;
     transition: 0.7s;
@@ -41,7 +41,7 @@
 
 .logo {
     text-transform: uppercase;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: lightseagreen;
     font-size: 36px;
 }
@@ -79,7 +79,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #d0f3ea;
+    background-color: #3c5e50;
     mix-blend-mode: overlay;
 }
 
@@ -176,17 +176,23 @@
 
 .menu ul li a {
     text-decoration: none;
-    font-size: 24px;
-    color: #111;
+    font-size: 28px;
+    color: lightseagreen;
+    font-weight: 400;
 }
 
 .menu ul li a:hover {
-    color: seagreen;
+    color: #111;
 }
 
 @media(max-width: 991px) {
     .showcase, 
     .showcase header {
+        padding: 40px;
+    }
+
+    .show, 
+    .show header {
         padding: 40px;
     }
 
@@ -198,3 +204,4 @@
     }
 }
 
+/* ==================================== */
