@@ -21,6 +21,7 @@
     color: #fff;
     z-index: 2;
     transition: 0.7s;
+    overflow: scroll;
 }
 
 .showcase.active {
@@ -155,7 +156,7 @@
 .social li a {
     display: inline-block;
     margin-right: 30px;
-    padding-left: 3px;
+    padding-left: -3px;
     transform: scale(1.5); 
     transition: 0.3s
 }
