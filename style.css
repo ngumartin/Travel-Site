@@ -48,7 +48,7 @@
 }
 
 #destinationHeader {
-    height: 30%;
+    height: 17%;
     width: 100vw;
     background-image: url('/images/website-grid-10-and-3.webp');
     background-size: cover;
@@ -56,6 +56,23 @@
     border: solid 4px silver;
     overflow: auto;
 }
+
+.container {
+    margin-top: 30%;
+    width: 100%vw;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 55px; */
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+    display: flex;
+    height: 350px;
+    width: 300px;
+    margin-bottom: 7%;
+    border: red solid 2px;
+} 
 
 .toggle {
     position: relative;
