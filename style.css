@@ -65,17 +65,20 @@
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    column-gap: 5em;
     padding-top: 200px;
     margin-top: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
     overflow: scroll;
     overflow: hidden;
 }
-
+/* clean up image tags */
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
     display: flex;
-    height: 300px;
-    width: 225px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin-top: 20%;
     margin-bottom: 5%;
     border: red solid 2px;
     justify-content: space-around;
@@ -83,15 +86,13 @@
 
 h4 {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .outerDiv1, .outerDiv2, .outerDiv3, .outerDiv4, .outerDiv5, .outerDiv6, .outerDiv7, .outerDiv8, .outerDiv9, .outerDiv10,.outerDiv11, .outerDiv12 {
     font-size: 15px;
     color: gray;
 }
-
-
 
 .toggle {
     position: relative;
@@ -234,7 +235,13 @@ h4 {
     color: #111;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 200px) {
+    #destinationHeader {
+        height: 225px;
+    }
+    .container {
+        margin-top: 15%;
+    }
     .logo {
         font-size: 2rem;
     }
@@ -242,12 +249,29 @@ h4 {
         width: 25px;
         height: 25px;
     }
+    h4 {
+        font-size: 15px;
+    }
+    .container {
+        column-gap: 3em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        width: 145px;
+        margin-bottom: 5%;
+        border: red solid 2px;
+        justify-content: space-around;
+    }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 700px) {
     
     #destinationHeader {
-        height: 265px;
+        height: 300px;
     }
     .container {
         margin-top: 15%;
@@ -261,6 +285,19 @@ h4 {
     }
     .text h3 {
         font-size: 2em;
+    }
+    h4 {
+        font-size: 23px;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
+        width: 300px;
+        margin-bottom: 5%;
+        column-gap: 5em;
+        border: red solid 2px;
+        justify-content: space-evenly;
     }
 }
 
