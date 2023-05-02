@@ -25,11 +25,11 @@
     overflow: hidden;
 }
 
-.showcase {
+/* .showcase {
     background-image: url('assets/Beautiful\ Animated\ Travel\ Road\ Trip\ Gifs.gif');
     background-repeat: no-repeat;
     background-size: 100% 100% ;
-}
+} */
 
 .showcase.active {
     right: 300px;
@@ -68,7 +68,6 @@
 
 .container {
     /* margin-top: 20%; */
-    background-image: url('/assets/Beautiful\ Animated\ Travel\ Road\ Trip\ Gifs.gif');
     width: 100%vw;
     justify-content: space-around;
     display: flex;
@@ -205,7 +204,7 @@ h4 {
     background-repeat: no-repeat;
 }
 
-/* .showcase video {
+.showcase video {
     position: absolute;
     top: 0;
     left: 0;
@@ -213,7 +212,7 @@ h4 {
     height: 100%;
     object-fit: cover;
     opacity: 0.8;
-} */
+}
 
 #bodyTwo {
     margin-top: 0px;
