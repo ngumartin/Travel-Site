@@ -358,8 +358,8 @@ h4 {
     }
     .containerTwo {
         margin-top: 0%;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .logo {
         font-size: 2rem;
@@ -414,8 +414,8 @@ h4 {
     }
     .containerTwo {
         margin-top: 0%;
-        margin-left: 0px;
-        margin-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .showcase, 
     .showcase header {
