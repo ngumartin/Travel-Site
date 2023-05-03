@@ -56,6 +56,12 @@
     font-size: 36px;
 }
 
+svg {
+    fill: lightseagreen;
+    height: 45px;
+    width: 45px;
+}
+
 #destinationHeader {
     width: 100vw;
     height: 50px;
