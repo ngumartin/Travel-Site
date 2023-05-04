@@ -13,7 +13,7 @@
     right: 0;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
+    /* padding: 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +52,7 @@
 .logo {
     text-transform: uppercase;
     /* cursor: pointer; */
-    color: lightseagreen;
+    color: #f4e5c2;
     font-size: 36px;
 }
 
@@ -88,7 +88,6 @@
     flex-wrap: wrap;
     column-gap: 5em;
     padding-top: 200px;
-    margin-top: 5%;
     overflow: scroll;
     overflow: hidden;
 }
@@ -114,6 +113,8 @@ h4 {
 .outerDiv1, .outerDiv2, .outerDiv3, .outerDiv4, .outerDiv5, .outerDiv6, .outerDiv7, .outerDiv8, .outerDiv9, .outerDiv10,.outerDiv11, .outerDiv12 {
     font-size: 15px;
     color: rgb(67, 67, 67);
+    padding-bottom: 50px;
+    border: solid green 2px;
 }
 
 .image1 {
@@ -192,13 +193,13 @@ h4 {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('https://api.iconify.design/bx:bx-menu.svg?color=lightseagreen') no-repeat center center / contain;
+    background: url('https://api.iconify.design/bx:bx-menu.svg?color=%23f4e5c2') no-repeat center center / contain;
     background-position: center;
     cursor: pointer;
 }
 
 .toggle.active {
-    background: url('https://api.iconify.design/ant-design:close-square-outlined.svg?color=lightseagreen') no-repeat center center / contain;
+    background: url('https://api.iconify.design/ant-design:close-square-outlined.svg?color=%23f4e5c2') no-repeat center center / contain;
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -307,7 +308,7 @@ h4 {
 }
 
 .menu {
-    background-color: 	silver;
+    background-color: gray;
     position: absolute;
     top: 0;
     right: 0;
@@ -316,7 +317,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-left: lightseagreen solid 3px;
+    border-left: #f4e5c2 solid 3px;
 }
 
 .menu ul {
@@ -327,7 +328,7 @@ h4 {
 .menu ul li a {
     text-decoration: none;
     font-size: 28px;
-    color: lightseagreen;
+    color: #f4e5c2;
     font-weight: 400;
 }
 
@@ -336,13 +337,13 @@ h4 {
 }
 
 @media (min-width: 200px) {
-    .showcase, 
     .showcase header {
         padding: 40px;
-        
+        border-bottom: solid 2px #5585b5;
+        background-color: rgba(255, 255, 255, 0.5);
     }
     svg {
-        fill: lightseagreen;
+        fill: #5585b5;
         height: 25px;
         width: 25px;
     }
@@ -351,6 +352,9 @@ h4 {
         padding-top: 0px;
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .showcase {
+        padding: 50px;
     }
     #showcaseTwo {
         padding-top: 0px;
@@ -422,17 +426,20 @@ h4 {
         padding-left: 50px;
         padding-right: 50px;
     }
-    /* .showcase,  */
     .showcase header {
         padding: 40px;
-        border-bottom: solid 1px lightseagreen;
-        background-color: rgba(255, 255, 255, 0.5);
+        border-bottom: solid 3px #f4e5c2;
+        background-color: rgba(4, 4, 4, 0.5);
+    }
+    .showcase {
+        padding: 100px;
     }
     .text h2 {
         font-size: 3em;
     }
     .logo {
         font-size: 3.5rem;
+        
     }
     .text h3 {
         font-size: 2em;
@@ -448,6 +455,7 @@ h4 {
         flex-wrap: wrap;
         height: 425px;
         width: 400px;
+        margin-top: 50px;
         margin-bottom: 5%;
         column-gap: 5em;
         justify-content: space-around;
