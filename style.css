@@ -420,6 +420,12 @@ h4 {
         padding-left: 0px;
         padding-bottom: 0%;
     }
+    .blogGif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
     .toggle {
         background-size: 55px;
     }
