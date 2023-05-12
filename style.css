@@ -25,12 +25,6 @@
     overflow: hidden;
 }
 
-/* .showcase {
-    background-image: url('assets/Beautiful\ Animated\ Travel\ Road\ Trip\ Gifs.gif');
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
-} */
-
 .showcase.active {
     right: 300px;
 }
@@ -55,6 +49,11 @@
     color: #f4e5c2;
     font-size: 36px;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 #destinationHeader {
@@ -353,10 +352,24 @@ h4 {
         padding-left: 0px;
         padding-bottom: 0%;
     }
+    #showcaseThree {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0%;
+    }
     .containerTwo {
         margin-top: 0%;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .blogGif img {
+        height: 300px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 600px;
     }
     .logo {
         font-size: 2rem;
@@ -434,6 +447,14 @@ h4 {
         margin-top: 0%;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .blogGif img {
+        height: 600px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
     }
     .showcase header {
         padding: 40px;
