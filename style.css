@@ -54,6 +54,7 @@
     /* cursor: pointer; */
     color: #f4e5c2;
     font-size: 36px;
+    text-decoration: none;
 }
 
 #destinationHeader {
@@ -453,7 +454,6 @@ h4 {
     }
     .logo {
         font-size: 3.5rem;
-        
     }
     .text h3 {
         font-size: 2em;
