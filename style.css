@@ -393,13 +393,13 @@ h4 {
         background-size: 35px;
     }
     .text h2 {
-        font-size: 2em;
+        font-size: 3em;
     }
     .text p {
-        font-size: 10px;
+        font-size: 1em;
     }
     .text h3 {
-        font-size: 1em;
+        font-size: 2em;
     }
     h4 {
         font-size: 15px;
@@ -410,6 +410,7 @@ h4 {
         margin-right: 0px;
     }
     .outerDiv1, .outerDiv2, .outerDiv3, .outerDiv4, .outerDiv5, .outerDiv6, .outerDiv7, .outerDiv8, .outerDiv9, .outerDiv10,.outerDiv11, .outerDiv12 {
+        font-size: 1.1em;
         padding-top: 25px;
         padding-bottom: 50px;
     }
@@ -479,21 +480,22 @@ h4 {
         padding: 100px;
     }
     .text h2 {
-        font-size: 3em;
+        font-size: 4em;
     }
     .logo {
         font-size: 3.5rem;
     }
     .text h3 {
-        font-size: 2em;
+        font-size: 3em;
     }
     .text p {
-        font-size: 14px;
+        font-size: 1.5em;
     }
     h4 {
-        font-size: 23px;
+        font-size: 1.35em;
     }
     .outerDiv1, .outerDiv2, .outerDiv3, .outerDiv4, .outerDiv5, .outerDiv6, .outerDiv7, .outerDiv8, .outerDiv9, .outerDiv10,.outerDiv11, .outerDiv12 {
+        font-size: 1.7em;
         padding-top: 50px;
         padding-bottom: 75px;
     }
