@@ -417,10 +417,10 @@ h4 {
     .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
         display: flex;
         flex-wrap: wrap;
-        height: 200px;
-        width: 145px;
+        height: 225px;
+        width: 175px;
         margin-bottom: 5%;
-        margin-top: 40%;
+        margin-top: 5%;
         justify-content: space-around;
     }
 }
