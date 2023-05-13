@@ -79,9 +79,12 @@ a {
 }
 
 .containerTwo {
-    background-image: url('/assets/brandi-redd-aJTiW00qqtI-unsplash.jpg');
-    background-size: contain;
-    width: 100%vw;
+    background-image: url('/assets/20480951.jpg');
+    /* background-color: #a2b9bc; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* width: 100%vw; */
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
@@ -95,6 +98,8 @@ a {
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
     display: flex;
     flex-wrap: wrap;
+    object-fit: fill;
+    object-position: center center;
     border: silver solid 1px;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 15px;
@@ -111,8 +116,8 @@ h4 {
 }
 
 .outerDiv1, .outerDiv2, .outerDiv3, .outerDiv4, .outerDiv5, .outerDiv6, .outerDiv7, .outerDiv8, .outerDiv9, .outerDiv10,.outerDiv11, .outerDiv12 {
-    font-size: 15px;
-    color: rgb(67, 67, 67);
+    font-size: 20px;
+    color: darkblue;
 }
 
 .image1 {
@@ -370,6 +375,9 @@ h4 {
         justify-content: center;
         align-items: center;
         margin-bottom: 600px;
+        flex-wrap: wrap;
+        object-fit: fill;
+        object-position: center center;
     }
     .logo {
         font-size: 2rem;
