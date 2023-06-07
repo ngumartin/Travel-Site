@@ -307,7 +307,7 @@ h4 {
 
 #socialBlog li a:hover {
     transform: scale(1.8) translateY(-3px);
-    background-color: black;
+    background-color: #cbb580;
     height: 25px;
     width: 25px;
     border-radius: 5px;
@@ -316,6 +316,19 @@ h4 {
 #socialBlog {
     padding-left: 10%;
 }
+
+#socialIcon li a:hover {
+    transform: scale(1.8) translateY(-3px);
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+#socialIcon {
+    padding-left: 10%;
+}
+
 
 .menu {
     background-color: lightslategray;
