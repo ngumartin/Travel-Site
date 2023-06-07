@@ -305,6 +305,14 @@ h4 {
     border-radius: 5px;
 }
 
+#socialBlog li a:hover {
+    transform: scale(1.8) translateY(-3px);
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
 #socialBlog {
     padding-left: 10%;
 }
