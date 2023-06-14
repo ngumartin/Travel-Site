@@ -400,6 +400,10 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
+#subButton:hover {
+    background-color: lightseagreen;
+}
+
 #formHeader {
     margin-bottom: 15px;
     font-size: 30px;
